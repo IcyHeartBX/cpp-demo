@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="c_socket_tcp_client"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/Volumes/Data/dev/code/demo/cpp/csocket/c_socket_tcp_client/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Volumes/Data/dev/code/demo/cpp/csocket/c_socket_tcp_client/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Volumes/Data/dev/code/demo/cpp/csocket/c_socket_tcp_client/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Volumes/Data/dev/code/demo/cpp/csocket/c_socket_tcp_client/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Volumes/Data/dev/code/demo/cpp/csocket/c_socket_tcp_client/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/Volumes/Data/dev/code/demo/cpp/csocket/c_socket_tcp_client/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Volumes/Data/dev/code/demo/cpp/csocket/c_socket_tcp_client/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Volumes/Data/dev/code/demo/cpp/csocket/c_socket_tcp_client/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Volumes/Data/dev/code/demo/cpp/csocket/c_socket_tcp_client/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Volumes/Data/dev/code/demo/cpp/csocket/c_socket_tcp_client/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/Volumes/Data/dev/code/demo/cpp/csocket/c_socket_tcp_client/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Volumes/Data/dev/code/demo/cpp/csocket/c_socket_tcp_client/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Volumes/Data/dev/code/demo/cpp/csocket/c_socket_tcp_client/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Volumes/Data/dev/code/demo/cpp/csocket/c_socket_tcp_client/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Volumes/Data/dev/code/demo/cpp/csocket/c_socket_tcp_client/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="c_socket_tcp_client">
+				<Option output="/Volumes/Data/dev/code/demo/cpp/csocket/c_socket_tcp_client/cmake-build-debug/c_socket_tcp_client" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Volumes/Data/dev/code/demo/cpp/csocket/c_socket_tcp_client/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Volumes/Data/dev/code/demo/cpp/csocket/c_socket_tcp_client/cmake-build-debug/Makefile&quot;  VERBOSE=1 c_socket_tcp_client"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Volumes/Data/dev/code/demo/cpp/csocket/c_socket_tcp_client/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Volumes/Data/dev/code/demo/cpp/csocket/c_socket_tcp_client/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Volumes/Data/dev/code/demo/cpp/csocket/c_socket_tcp_client/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="c_socket_tcp_client/fast">
+				<Option output="/Volumes/Data/dev/code/demo/cpp/csocket/c_socket_tcp_client/cmake-build-debug/c_socket_tcp_client" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Volumes/Data/dev/code/demo/cpp/csocket/c_socket_tcp_client/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Volumes/Data/dev/code/demo/cpp/csocket/c_socket_tcp_client/cmake-build-debug/Makefile&quot;  VERBOSE=1 c_socket_tcp_client/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Volumes/Data/dev/code/demo/cpp/csocket/c_socket_tcp_client/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Volumes/Data/dev/code/demo/cpp/csocket/c_socket_tcp_client/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Volumes/Data/dev/code/demo/cpp/csocket/c_socket_tcp_client/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/Volumes/Data/dev/code/demo/cpp/csocket/c_socket_tcp_client/c_tcp_client.c">
+			<Option target="c_socket_tcp_client"/>
+		</Unit>
+		<Unit filename="/Volumes/Data/dev/code/demo/cpp/csocket/c_socket_tcp_client/c_tcp_client.h">
+			<Option target="c_socket_tcp_client"/>
+		</Unit>
+		<Unit filename="/Volumes/Data/dev/code/demo/cpp/csocket/c_socket_tcp_client/main.c">
+			<Option target="c_socket_tcp_client"/>
+		</Unit>
+		<Unit filename="/Volumes/Data/dev/code/demo/cpp/csocket/c_socket_tcp_client/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

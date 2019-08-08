@@ -1,0 +1,32 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Volumes/Data/dev/code/demo/cpp/csocket/c_socket_tcp_client/c_tcp_client.c
+c_tcp_client.h
+/Volumes/Data/dev/code/demo/cpp/csocket/c_socket_tcp_client/c_tcp_client.h
+sys/socket.h
+-
+string.h
+-
+arpa/inet.h
+-
+stdio.h
+-
+stdlib.h
+-
+unistd.h
+-
+
+/Volumes/Data/dev/code/demo/cpp/csocket/c_socket_tcp_client/c_tcp_client.h
+
+/Volumes/Data/dev/code/demo/cpp/csocket/c_socket_tcp_client/main.c
+stdio.h
+-
+c_tcp_client.h
+/Volumes/Data/dev/code/demo/cpp/csocket/c_socket_tcp_client/c_tcp_client.h
+

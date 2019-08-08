@@ -1,0 +1,3 @@
+/Volumes/Data/dev/code/demo/cpp/csocket/c_socket_tcp_client/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Volumes/Data/dev/code/demo/cpp/csocket/c_socket_tcp_client/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Volumes/Data/dev/code/demo/cpp/csocket/c_socket_tcp_client/cmake-build-debug/CMakeFiles/c_socket_tcp_client.dir
