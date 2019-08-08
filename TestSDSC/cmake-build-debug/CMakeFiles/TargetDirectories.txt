@@ -1,0 +1,3 @@
+/Volumes/Data/dev/code/demo/cpp/TestSDSC/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Volumes/Data/dev/code/demo/cpp/TestSDSC/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Volumes/Data/dev/code/demo/cpp/TestSDSC/cmake-build-debug/CMakeFiles/TestSDSC.dir

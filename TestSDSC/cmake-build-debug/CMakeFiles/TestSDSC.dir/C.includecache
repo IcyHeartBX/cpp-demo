@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Volumes/Data/dev/code/demo/cpp/TestSDSC/select_sort00.c
+select_sort00.h
+/Volumes/Data/dev/code/demo/cpp/TestSDSC/select_sort00.h
+stdio.h
+-
+stdlib.h
+-
+
+/Volumes/Data/dev/code/demo/cpp/TestSDSC/select_sort00.h
+
