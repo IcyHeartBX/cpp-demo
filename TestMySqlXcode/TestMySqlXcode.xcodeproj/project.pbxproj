@@ -1,0 +1,287 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5FF59764200DDAE9001A3B8C /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5FF59763200DDAE9001A3B8C /* main.cpp */; };
+		5FF59770200DDC8E001A3B8C /* MyDB.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5FF5976E200DDC8E001A3B8C /* MyDB.cpp */; };
+		5FF59778200DE01D001A3B8C /* libmysqlclient.20.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 5FF59777200DE01D001A3B8C /* libmysqlclient.20.dylib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		5FF5975E200DDAE9001A3B8C /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		5FF59760200DDAE9001A3B8C /* TestMySqlXcode */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = TestMySqlXcode; sourceTree = BUILT_PRODUCTS_DIR; };
+		5FF59763200DDAE9001A3B8C /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		5FF5976B200DDB74001A3B8C /* libmysqlclient.18.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libmysqlclient.18.dylib; path = "../../../../../../../usr/local/install/mysql-connector-c-6.1.11-macos10.12-x86_64/lib/libmysqlclient.18.dylib"; sourceTree = "<group>"; };
+		5FF5976E200DDC8E001A3B8C /* MyDB.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MyDB.cpp; sourceTree = "<group>"; };
+		5FF5976F200DDC8E001A3B8C /* MyDB.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = MyDB.hpp; sourceTree = "<group>"; };
+		5FF59772200DDE1C001A3B8C /* libmysqlclient.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libmysqlclient.a; path = "../../../../../../../usr/local/install/mysql-connector-c-6.1.11-macos10.12-x86_64/lib/libmysqlclient.a"; sourceTree = "<group>"; };
+		5FF59775200DE00A001A3B8C /* lib */ = {isa = PBXFileReference; lastKnownFileType = folder; name = lib; path = "../../../../../../../usr/local/mysql-5.7.19-macos10.12-x86_64/lib"; sourceTree = "<group>"; };
+		5FF59777200DE01D001A3B8C /* libmysqlclient.20.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libmysqlclient.20.dylib; path = "../../../../../../../usr/local/mysql-5.7.19-macos10.12-x86_64/lib/libmysqlclient.20.dylib"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5FF5975D200DDAE9001A3B8C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5FF59778200DE01D001A3B8C /* libmysqlclient.20.dylib in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5FF59757200DDAE9001A3B8C = {
+			isa = PBXGroup;
+			children = (
+				5FF59762200DDAE9001A3B8C /* TestMySqlXcode */,
+				5FF59761200DDAE9001A3B8C /* Products */,
+				5FF5976A200DDB74001A3B8C /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		5FF59761200DDAE9001A3B8C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5FF59760200DDAE9001A3B8C /* TestMySqlXcode */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5FF59762200DDAE9001A3B8C /* TestMySqlXcode */ = {
+			isa = PBXGroup;
+			children = (
+				5FF59763200DDAE9001A3B8C /* main.cpp */,
+				5FF5976E200DDC8E001A3B8C /* MyDB.cpp */,
+				5FF5976F200DDC8E001A3B8C /* MyDB.hpp */,
+			);
+			path = TestMySqlXcode;
+			sourceTree = "<group>";
+		};
+		5FF5976A200DDB74001A3B8C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5FF59777200DE01D001A3B8C /* libmysqlclient.20.dylib */,
+				5FF59775200DE00A001A3B8C /* lib */,
+				5FF59772200DDE1C001A3B8C /* libmysqlclient.a */,
+				5FF5976B200DDB74001A3B8C /* libmysqlclient.18.dylib */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5FF5975F200DDAE9001A3B8C /* TestMySqlXcode */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5FF59767200DDAE9001A3B8C /* Build configuration list for PBXNativeTarget "TestMySqlXcode" */;
+			buildPhases = (
+				5FF5975C200DDAE9001A3B8C /* Sources */,
+				5FF5975D200DDAE9001A3B8C /* Frameworks */,
+				5FF5975E200DDAE9001A3B8C /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TestMySqlXcode;
+			productName = TestMySqlXcode;
+			productReference = 5FF59760200DDAE9001A3B8C /* TestMySqlXcode */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5FF59758200DDAE9001A3B8C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = pix;
+				TargetAttributes = {
+					5FF5975F200DDAE9001A3B8C = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 5FF5975B200DDAE9001A3B8C /* Build configuration list for PBXProject "TestMySqlXcode" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 5FF59757200DDAE9001A3B8C;
+			productRefGroup = 5FF59761200DDAE9001A3B8C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5FF5975F200DDAE9001A3B8C /* TestMySqlXcode */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5FF5975C200DDAE9001A3B8C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5FF59764200DDAE9001A3B8C /* main.cpp in Sources */,
+				5FF59770200DDC8E001A3B8C /* MyDB.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		5FF59765200DDAE9001A3B8C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		5FF59766200DDAE9001A3B8C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		5FF59768200DDAE9001A3B8C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				HEADER_SEARCH_PATHS = "/usr/local/mysql-5.7.19-macos10.12-x86_64/include";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"/usr/local/mysql-5.7.19-macos10.12-x86_64/lib",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		5FF59769200DDAE9001A3B8C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				HEADER_SEARCH_PATHS = "/usr/local/mysql-5.7.19-macos10.12-x86_64/include";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"/usr/local/mysql-5.7.19-macos10.12-x86_64/lib",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5FF5975B200DDAE9001A3B8C /* Build configuration list for PBXProject "TestMySqlXcode" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5FF59765200DDAE9001A3B8C /* Debug */,
+				5FF59766200DDAE9001A3B8C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5FF59767200DDAE9001A3B8C /* Build configuration list for PBXNativeTarget "TestMySqlXcode" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5FF59768200DDAE9001A3B8C /* Debug */,
+				5FF59769200DDAE9001A3B8C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5FF59758200DDAE9001A3B8C /* Project object */;
+}
