@@ -1,0 +1,64 @@
+//============================================================================
+// Name        : TestSDSSocketDemo.cpp
+// Author      : pix
+// Version     :
+// Copyright   : Your copyright notice
+// Description : Hello World in C, Ansi-style
+//============================================================================
+
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include "CSocketProtocol.h"
+#include "CSckFactoryImpl1.h"
+#include "CSckFactoryImpl2.h"
+
+// 模拟调用,面向抽象类编程框架
+int SckSendAndRecv(CSocketProtocol * sp,unsigned char * in, int inlen,unsigned char * out,int * outlen)
+{
+	int ret = 0;
+	ret = sp->SocketInit();
+	if(0 != ret)
+	{
+		goto END;
+	}
+	ret = sp->SocketSend(in,inlen);
+	if(0 != ret)
+		{
+			goto END;
+		}
+	ret = sp->SocketRecv(out,outlen);
+	if(0 != ret)
+		{
+			goto END;
+		}
+
+END:
+	ret = sp->SocketDestory();
+	return ret;
+}
+
+int main(void) {
+	int ret = 0;
+	CSocketProtocol * sp = NULL;
+//	sp = new CSckFactoryImpl1;
+	sp = new CSckFactoryImpl2;
+	unsigned char inBuf [4096] = {0};
+	unsigned char outBuf [4096] = {0};
+	int outLen = 0;
+	int inLen = 9;
+	strcpy((char*)inBuf,"HelloWorld");
+
+	ret = SckSendAndRecv(sp,inBuf,inLen,outBuf,&outLen);
+	if(0 != ret)
+	{
+		printf("FUNC SckSendAndRecv(),Error,ret:%d\n",ret);
+	}
+	if(NULL != sp)
+	{
+		delete sp;	// 如果使用父类指针释放子类内存，应该用虚析构函数
+		sp = NULL;
+	}
+	printf("outBuf:%s\n",outBuf);
+	return ret;
+}
